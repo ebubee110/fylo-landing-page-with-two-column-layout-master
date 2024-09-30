@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  /* margin: 50px; */
+}
+
+p {
+  font-size: 16px;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  margin: 50px;
+  margin-bottom: 80px;
+  font-family: 'Raleway';
+}
+
+header nav {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: hsl(238, 22%, 44%);
+  font-family: sans-serif;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+#first-part {
+  display: flex;
+  margin: 50px;
+  margin-bottom: 180px;
+}
+
+#first-part #form h1 {
+  display: flex;
+  font-size: 40px;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 20px;
+}
+#first-part #form p {
+  margin-bottom: 25px;
+  width: 550px;
+  font-weight: 500;
+}
+
+#first-part #form input {
+  border: 1px solid;
+  text-align: center;
+  border-radius: 2px;
+  height: 40px;
+  width: 250px;
+  gap: 40px;
+}
+
+#first-part #form button {
+  height: 40px;
+  width: 150px;
+  border: 1px hsl(224, 93%, 58%);
+  border-radius: 2px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#first-part .svgs img {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 600px;
+  margin-top: -80px;
+}
+
+.svgs img {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 600px;
+}
+
+#second-part {
+  background: url(./images/bg-curve-desktop.svg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 120px; */
+  height: 120vh;
+}
+
+#second-part #info h1 {
+  margin: 50px;
+  font-size: 35px;
+  color: hsl(243, 87%, 12%);
+  margin-top: 120px;
+  margin-bottom: -30px;
+}
+
+#second-part #info p {
+  margin: 50px;
+  color: hsl(243, 87%, 12%);
+  font-weight: 400;
+  margin-bottom: -30px;
+  width: 500px;
+}
+
+#second-part #info a {
+  margin: 50px;
+  display: flex;
+  color: hsl(170, 45%, 43%);
+  cursor: pointer;
+}
+#second-part #info a:hover {
+  text-decoration: underline;
+}
+
+#second-part #info a img {
+  margin-bottom: -2px;
+  margin-left: 2px;
+}
+
+#comment {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 50px;
+  margin-top: -60px;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  color: hsl(243, 87%, 12%);
+  box-shadow: 0.5px 0.5px 0.5px 0.9px hsl(0, 0%, 75%);
+}
+
+#comment svg {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+#comment p {
+  margin: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: 400px;
+}
+
+#comment h3 {
+  margin-left: 75px;
+  margin-top: -39px;
+  font-size: 18px;
+}
+
+#comment #p {
+  margin-left: 75px;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+#comment img {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#second-part #svg img {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 600px;
+  margin-top: -550px;
+  margin-left: auto;
+}
+
+#third-section {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  border: 1px solid;
+}
+
+#third-section #today {
+}
+
+#third-section #today h1 {
+  margin: 50px;
+  color: hsl(240, 75%, 98%);
+  font-size: 32px;
+  margin-top: 80px;
+}
+
+#third-section #today p {
+  color: hsl(240, 75%, 98%);
+  margin: 50px;
+  font-weight: 400;
+  margin-top: -40px;
+  margin-bottom: 80px;
+}
+
+#third-section input {
+  margin: 50px;
+  height: 40px;
+  width: 350px;
+  border-radius: 2px;
+  border: 1px hsl(240, 75%, 98%);
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#third-section button {
+  margin: 50px;
+  height: 40px;
+  width: 150px;
+  border: 1px hsl(224, 93%, 58%);
+  border-radius: 2px;
+  background-color: hsl(224, 93%, 58%);
+  margin-top: -100px;
+  color: hsl(240, 75%, 98%);
+  cursor: pointer;
+}
+#third-section button:hover {
+  background-color: hsl(224, 100%, 76%);
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 20px 40px; */
+}
+footer img {
+  margin-left: 50px;
+  margin-top: 50px;
+  color: hsl(240, 75%, 98%);
+  margin-bottom: 10px;
+}
+
+footer #phone {
+  margin-left: 50px;
+  color: hsl(240, 75%, 98%);
+  margin-bottom: 10px;
+}
+
+footer #email {
+  margin-left: 50px;
+  color: hsl(240, 75%, 98%);
+}
+
+#more-info {
+  align-items: center;
+}
+#more-info1 a {
+  display: flex;
+  flex: 5;
+  color: hsl(240, 75%, 98%);
+  text-decoration: none;
+}
