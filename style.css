@@ -32,6 +32,7 @@ header nav {
 }
 
 header nav a {
+  font-weight: 400;
   text-decoration: none;
   color: hsl(238, 22%, 44%);
   font-family: sans-serif;
@@ -98,7 +99,6 @@ header nav a:hover {
   background: url(./images/bg-curve-desktop.svg) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 120px; */
   height: 120vh;
 }
 
@@ -190,11 +190,11 @@ header nav a:hover {
 #third-section {
   background-color: hsl(238, 22%, 44%);
   display: flex;
-  border: 1px solid;
+  border: 1px;
 }
 
-#third-section #today {
-}
+/* #third-section #today {
+} */
 
 #third-section #today h1 {
   margin: 50px;
@@ -239,11 +239,9 @@ header nav a:hover {
 footer {
   background-color: hsl(243, 87%, 12%);
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* padding: 20px 40px; */
 }
-footer img {
+
+footer svg {
   margin-left: 50px;
   margin-top: 50px;
   color: hsl(240, 75%, 98%);
@@ -262,11 +260,44 @@ footer #email {
 }
 
 #more-info {
-  align-items: center;
-}
-#more-info1 a {
   display: flex;
-  flex: 5;
-  color: hsl(240, 75%, 98%);
+  margin-left: 500px;
+  gap: 100px;
+  margin-top: -100px;
+}
+#more-info a {
+  text-align: center;
   text-decoration: none;
+  color: hsl(240, 75%, 98%);
+}
+
+#more-info a:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+#more-info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#more-info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 18px;
+}
+
+#social {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+#social:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+@media (max-width: 768px) {
 }
